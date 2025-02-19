@@ -173,16 +173,41 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 1rem;  /* Reduced padding */
+  }
+
   .hero-title {
     font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .services-section,
+  .features-section {
+    padding: 2rem 1rem;  /* Reduced padding */
   }
 
   .services-grid,
   .features-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;  /* Reduced gap */
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
   }
 
   .content-wrapper {
     padding: 0 1rem;
+  }
+
+  .service-card,
+  .feature-item {
+    margin-bottom: 1rem;
   }
 } 

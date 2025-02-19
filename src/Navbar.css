@@ -46,3 +46,37 @@
     width: auto;
     display: block;
   }
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .navbar {
+    height: 80px;  /* Reduced overall height */
+    padding: 0.5rem;
+  }
+
+  .navbar-left {
+    height: 100%;
+    padding: 0.5rem;
+  }
+
+  .navbar-center {
+    padding-right: 1rem;
+  }
+
+  .navbar-center .nav-links {
+    gap: 1rem;  /* Reduced gap between links */
+  }
+
+  .navbar-center .nav-links li {
+    margin-right: 0.5rem;  /* Reduced margin */
+  }
+
+  .navbar-center .nav-links a {
+    font-size: 0.9rem;  /* Smaller font size */
+  }
+
+  .logo-image {
+    height: 100%;
+    width: auto;
+  }
+}
