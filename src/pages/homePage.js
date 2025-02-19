@@ -12,7 +12,7 @@ export default function Homepage() {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Advocating for Seniors and Their Families</h1>
+          <h1 className="hero-title">Helping Support Aging Loved Ones</h1>
           <p className="hero-subtitle">
             Guiding you through senior care decisions with expertise and compassion
           </p>

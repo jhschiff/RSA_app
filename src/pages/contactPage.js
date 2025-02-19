@@ -19,16 +19,20 @@ export default function ContactPage () {
     return (
       <div className="contact-page">
         <Navbar />
-        {/* Contact Cards Container */}
         <div className="contact-container">
           <div className="contact-cards-wrapper">
             {employees.map((employee, index) => (
               <div key={index} className="contact-card">
-                <h2 className="contact-name">{employee.name}</h2>
-                <div className="contact-details">
+                {/* Name and Position Group */}
+                <div className="info-group">
+                  <h2 className="contact-name">{employee.name}</h2>
                   <p className="contact-text">
                     <span className="contact-label">{employee.position}</span>
                   </p>
+                </div>
+
+                {/* Contact Info Group */}
+                <div className="info-group">
                   <p className="contact-text">
                     <span className="contact-label">Email:</span> {employee.email}
                   </p>
