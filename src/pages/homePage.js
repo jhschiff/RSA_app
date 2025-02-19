@@ -16,12 +16,12 @@ export default function Homepage() {
       {/* Two Pictures Section */}
       <div className="homepage-images-container">
         <div className="image-wrapper">
-          {/* <img src={image1} alt="Image 1" className="images" /> */}
+          {/* <img src={image1} className="images" /> */}
           <p className="mt-2 text-gray-800">Image 1 Name</p>
         </div>
 
         <div className="image-wrapper">
-          {/* <img src={image2} alt="Image 2" className="images" /> */}
+          {/* <img src={image2} className="images" /> */}
           <p className="mt-2 text-gray-800">Image 2 Name</p>
         </div>
       </div>
