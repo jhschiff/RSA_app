@@ -23,7 +23,7 @@ export default function Homepage() {
       {/* Services Section */}
       <section className="services-section">
         <div className="content-wrapper">
-          <h2 className="section-title">How We Can Help</h2>
+          <h2 className="section-title">How We Help</h2>
           <div className="services-grid">
             <div className="service-card">
               {/* <img src={seniorCare} alt="Senior Care Services" className="service-image" /> */}

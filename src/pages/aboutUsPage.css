@@ -19,8 +19,8 @@
 
 /* Company Section Styles */
 .company-section {
-  padding: 4rem 0;
-  background-color: white;
+  /* padding: 4rem 0; */
+  background-color: #d1d5db;
 }
 
 .company-description {
@@ -34,7 +34,8 @@
 
 /* Founders Section Styles */
 .founders-section {
-  padding: 4rem 0;
+  padding: 1rem 0;
+  background-color: #d1d5db;
 }
 
 .founders-grid {

@@ -1,6 +1,6 @@
 .contact-page {
   min-height: 100vh;
-  background-color: rgb(243, 244, 246);
+  background-color: #d1d5db;
 }
 
 .contact-container {
@@ -50,4 +50,12 @@
 
 .contact-label {
   font-weight: 600;
+}
+
+.contact-header{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-bottom: 2rem;
 }

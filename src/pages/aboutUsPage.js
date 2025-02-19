@@ -24,9 +24,9 @@ export default function AboutUsPage() {
       {/* Company Overview Section */}
       <section className="company-section">
         <div className="content-container">
-          <h1 className="section-title">Resolute Senior Advocates</h1>
+          <h1 className="section-title">About The Company</h1>
           <p className="company-description">
-            We empower older adults and their families by connecting them with the right resources and advocating for their needs. Our team provides guidance and support to help families navigate the complexities of elderly care for their loved ones.
+            Founded in 2025, Resolute Senior Advocates provides guidance and support to help families navigate the complexities of elderly care for their loved ones.
           </p>
         </div>
       </section>
