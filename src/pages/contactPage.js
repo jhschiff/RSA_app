@@ -8,9 +8,9 @@ const employees = [{
   phone: "303-437-5388"
 },
 {
-  name: "Elizabeth (Buffy) Choncol",
+  name: "Elizabeth (Buffy) Chonchol",
   position: "Partner",
-  email: "bchoncol@RSAus.com",
+  email: "bchonchol@RSAus.com",
   phone: "303-513-1740"
 }
 ]

@@ -1,7 +1,7 @@
 import Navbar from "../Navbar";
 import "./aboutUsPage.css";
 import amySchiff from "../images/AmySchiff.jpeg";
-import buffyChoncol from "../images/BuffyChoncol.jpeg";
+import buffyChonchol from "../images/BuffyChonchol.jpeg";
 
 const founders = [
   {
@@ -10,9 +10,9 @@ const founders = [
     image: amySchiff
   },
   {
-    name: "Elizabeth (Buffy) Choncol",
+    name: "Elizabeth (Buffy) Chonchol",
     bio: "Buffy has dedicated her career to excellence for more than two decades. Her background in XYZ and expertise in the Denver metropolitan area market makes her an invaluable resource for clients. She specializes in helping clients find their perfect home while maximizing their potential.",
-    image: buffyChoncol
+    image: buffyChonchol
   }
 ];
 
