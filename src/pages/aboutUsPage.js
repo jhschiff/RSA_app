@@ -6,7 +6,7 @@ import buffyChonchol from "../images/BuffyChonchol.jpeg";
 const founders = [
   {
     name: "Amy Schiff",
-    bio: "Amy brings over 20 years of experience in XYZ. As a Colorado native, she has deep knowledge of the local market and has built strong relationships throughout the community. Her expertise in XYZ has helped countless clients achieve their goals.",
+    bio: "Amy has extensive experience with a unique and proven ability to connect with people. She graduated valedictorian from the University of Colorado Boulder - Leeds School of Business. She received her CPA, worked at Deloitte, U S WEST, QWEST, and AboutSkin Dermatology. She currently serves on several boards and has built strong relationships throughout the community. Using her business acumen and personal communication skills, she is an invaluable resource that helps clients achieve their goals.",
     image: amySchiff
   },
   {

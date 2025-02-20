@@ -46,7 +46,7 @@ export default function Homepage() {
           <div className="features-grid">
             <div className="feature-item">
               <h3>Expert Guidance</h3>
-              <p>Decades of combined experience in senior care and advocacy</p>
+              <p>Experience and in-depth market knowledge of Senior Care</p>
             </div>
             <div className="feature-item">
               <h3>Personalized Approach</h3>
