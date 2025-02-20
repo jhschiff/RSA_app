@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar.js";
 import './homePage.css';
 // import seniorCare from '../images/senior-care.jpeg';
-// import familySupport from '../images/family-support.jpeg';
+// import familySupport from '../images/familySupport.jpeg';
 
 export default function Homepage() {
   return (
@@ -28,7 +28,7 @@ export default function Homepage() {
             <div className="service-card">
               {/* <img src={seniorCare} alt="Senior Care Services" className="service-image" /> */}
               <h3>Senior Care Navigation</h3>
-              <p>We help families understand and access the right care options for their loved ones, from independent living to specialized care facilities.</p>
+              <p>We help families understand and access the right care options for their loved ones, from independent living to specialized care communities.</p>
             </div>
             <div className="service-card">
               {/* <img src={familySupport} alt="Family Support Services" className="service-image" /> */}
