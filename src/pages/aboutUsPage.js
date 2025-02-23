@@ -6,12 +6,20 @@ import buffyChonchol from "../images/BuffyChonchol.jpeg";
 const founders = [
   {
     name: "Amy Schiff",
-    bio: "Amy has extensive experience with a unique and proven ability to connect with people. She graduated valedictorian from the University of Colorado Boulder - Leeds School of Business. She received her CPA, worked at Deloitte, U S WEST, QWEST, and AboutSkin Dermatology. She currently serves on several boards and has built strong relationships throughout the community. Using her business acumen and personal communication skills, she is an invaluable resource that helps clients achieve their goals.",
+    bio: [
+      "Amy is a highly accomplished Certified Public Accountant (CPA) with extensive experience in finance, strategic planning, executive leadership, and long-term care planning. After graduating valedictorian from the University of Colorado Boulder – Leeds School of Business, she began her career at Deloitte before advancing into key leadership roles, including Corporate Accounting Manager at U S WEST, Director of Financial Planning and Analysis at QWEST, and Chief Financial Officer at AboutSkin Dermatology.",
+      "Amy has leveraged her financial expertise, attention to detail, and strategic insight to help individuals navigate complex issues for sound informed decision-making solutions. She is a passionate advocate for seniors. Her ability to connect with people and translate complex financial concepts into clear, actionable steps makes her a trusted resource for families facing critical care decisions.",
+      "Her unique blend of financial acumen and personal commitment to elder care empowers individuals to make well-informed choices prioritizing dignity, independence, and long-term well-being."
+    ],
     image: amySchiff
   },
   {
     name: "Elizabeth (Buffy) Chonchol",
-    bio: "Buffy has dedicated her career to excellence for more than two decades. Her background in XYZ and expertise in the Denver metropolitan area market makes her an invaluable resource for clients. She specializes in helping clients find their perfect home while maximizing their potential.",
+    bio: [
+      "Elizabeth \"Buffy\" brings both personal experience and professional expertise to families navigating the challenges of long-term care. As the devoted daughter of a parent who has been in an elderly care community for over a decade, she deeply understands the emotional and logistical complexities of finding the right support for an aging loved one.",
+      "Beyond her firsthand experience, Buffy holds a degree in Accounting from George Washington University and an MBA from the University of Denver. Her career includes roles in public accounting at Price Waterhouse, serving as Director of Finance in Business Development for US West, and working as Director of Development at a private investment group.",
+      "A third-generation Denver native, Buffy has a deep knowledge of the city's senior care resources and communities, making her a trusted guide for families seeking the best options for their loved ones."
+    ],
     image: buffyChonchol
   }
 ];
@@ -47,7 +55,13 @@ export default function AboutUsPage() {
                 </div>
                 <div className="founder-content">
                   <h3 className="founder-name">{founder.name}</h3>
-                  <p className="founder-bio">{founder.bio}</p>
+                  {Array.isArray(founder.bio) ? (
+                    founder.bio.map((paragraph, i) => (
+                      <p key={i} className="founder-bio">{paragraph}</p>
+                    ))
+                  ) : (
+                    <p className="founder-bio">{founder.bio}</p>
+                  )}
                 </div>
               </div>
             ))}

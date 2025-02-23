@@ -78,6 +78,11 @@
 .founder-bio {
   color: rgb(75, 85, 99);
   line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.founder-bio:last-child {
+  margin-bottom: 0;
 }
 
 /* Responsive Design */
