@@ -22,6 +22,7 @@
   border-radius: 0.5rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   width: 33.333%;
+  min-width: 250px;
 }
 
 .contact-name {
@@ -63,19 +64,47 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-container {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
   }
 
   .contact-cards-wrapper {
     flex-direction: column;
-    gap: 1rem;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   .contact-card {
-    width: 100%;  /* Full width on mobile */
+    width: 100%;
+    max-width: 400px;
+    min-width: auto;
+    margin: 0 auto;
   }
 
   .contact-header h1 {
     font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-name {
+    font-size: 1.3rem;
+  }
+
+  .contact-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 380px) {
+  .contact-card {
+    padding: 1rem;
+  }
+
+  .contact-name {
+    font-size: 1.2rem;
+  }
+
+  .contact-text {
+    font-size: 0.9rem;
   }
 }

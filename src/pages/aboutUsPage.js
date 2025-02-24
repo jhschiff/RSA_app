@@ -11,7 +11,7 @@ const founders = [
       "Amy has leveraged her financial expertise, attention to detail, and strategic insight to help individuals navigate complex issues for sound informed decision-making solutions. She is a passionate advocate for seniors. Her ability to connect with people and translate complex financial concepts into clear, actionable steps makes her a trusted resource for families facing critical care decisions.",
       "Her unique blend of financial acumen and personal commitment to elder care empowers individuals to make well-informed choices prioritizing dignity, independence, and long-term well-being."
     ],
-    image: amySchiff
+    // image: amySchiff
   },
   {
     name: "Elizabeth (Buffy) Chonchol",
@@ -20,7 +20,7 @@ const founders = [
       "Beyond her firsthand experience, Buffy holds a degree in Accounting from George Washington University and an MBA from the University of Denver. Her career includes roles in public accounting at Price Waterhouse, serving as Director of Finance in Business Development for US West, and working as Director of Development at a private investment group.",
       "A third-generation Denver native, Buffy has a deep knowledge of the city's senior care resources and communities, making her a trusted guide for families seeking the best options for their loved ones."
     ],
-    image: buffyChonchol
+    // image: buffyChonchol
   }
 ];
 
@@ -47,11 +47,11 @@ export default function AboutUsPage() {
             {founders.map((founder, index) => (
               <div key={index} className="founder-card">
                 <div className="founder-image-container">
-                  <img 
+                  {/* <img 
                     src={founder.image} 
                     alt={founder.name}
                     className="founder-image"
-                  />
+                  /> */}
                 </div>
                 <div className="founder-content">
                   <h3 className="founder-name">{founder.name}</h3>

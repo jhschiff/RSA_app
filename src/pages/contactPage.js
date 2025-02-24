@@ -4,13 +4,13 @@ import "./contactPage.css";
 const employees = [{
   name: "Amy Schiff",
   position: "Partner",
-  email: "aschiff@RSAus.com",
+  // email: "aschiff@RSAus.com",
   phone: "303-437-5388"
 },
 {
   name: "Elizabeth (Buffy) Chonchol",
   position: "Partner",
-  email: "bchonchol@RSAus.com",
+  // email: "bchonchol@RSAus.com",
   phone: "303-513-1740"
 }
 ]
