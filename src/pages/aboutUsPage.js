@@ -1,7 +1,7 @@
 import Navbar from "../Navbar";
 import "./aboutUsPage.css";
-import amySchiff from "../images/AmySchiff.jpeg";
-import buffyChonchol from "../images/BuffyChonchol.jpeg";
+// import amySchiff from "../images/AmySchiff.jpeg";
+// import buffyChonchol from "../images/BuffyChonchol.jpeg";
 
 const founders = [
   {
