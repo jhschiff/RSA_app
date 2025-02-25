@@ -79,6 +79,7 @@
   color: rgb(75, 85, 99);
   line-height: 1.6;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .founder-bio:last-child {
@@ -98,5 +99,9 @@
   .company-description {
     font-size: 1rem;
     padding: 0 1rem;
+  }
+
+  .founder-bio {
+    font-size: 1rem;
   }
 }
