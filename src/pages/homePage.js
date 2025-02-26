@@ -13,31 +13,34 @@ export default function Homepage() {
       <section className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">Helping Support Aging Loved Ones</h1>
-          <p className="hero-subtitle">
-            Guiding you through senior care decisions with expertise and compassion
-          </p>
+          <div className="hero-subtitle">
+            <p>
+              Navigating senior care decisions can be overwhelming, but you don't have to do it alone. As Colorado natives with firsthand experience in elder care, we provide compassionate, financially savvy, and personalized guidance to help families find the best senior living and care solutions. Unlike national companies, we take a hands-on, local approach—personally visiting every recommended community and tailoring options to fit your unique needs.
+            </p>
+            <p>
+              Our mission is to provide compassionate, personalized, and financially informed guidance to seniors and their families as they navigate the complexities of aging and senior care.
+            </p>
+          </div>
           <a href="/contact" className="cta-button">Get Started Today</a>
         </div>
       </section>
 
       {/* Services Section */}
-      <section className="services-section">
+      {/* <section className="services-section">
         <div className="content-wrapper">
           <h2 className="section-title">How We Help</h2>
           <div className="services-grid">
             <div className="service-card">
-              {/* <img src={seniorCare} alt="Senior Care Services" className="service-image" /> */}
               <h3>Senior Care Navigation</h3>
               <p>We help families understand and access the right care options for their loved ones, from independent living to specialized care communities.</p>
             </div>
             <div className="service-card">
-              {/* <img src={familySupport} alt="Family Support Services" className="service-image" /> */}
               <h3>Family Support</h3>
               <p>Our team provides guidance and resources to help families make informed decisions about their loved one's care and future.</p>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Choose Us Section */}
       <section className="features-section">

@@ -51,9 +51,17 @@
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
   margin-bottom: 2rem;
+}
+
+.hero-subtitle p {
+  font-size: 1.25rem;
   opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle p:last-child {
+  margin-bottom: 0;
 }
 
 /* Services Section */
@@ -181,7 +189,7 @@
     font-size: 2rem;
   }
 
-  .hero-subtitle {
+  .hero-subtitle p {
     font-size: 1.1rem;
     padding: 0 1rem;
   }

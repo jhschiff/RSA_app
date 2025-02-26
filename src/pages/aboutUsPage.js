@@ -7,7 +7,7 @@ const founders = [
   {
     name: "Amy Schiff",
     bio: [
-      "Amy has leveraged her financial expertise, attention to detail, and strategic insight to help individuals navigate complex issues for sound informed decision-making solutions. She is a passionate advocate for seniors. Her ability to connect with people and translate complex financial concepts into clear, actionable steps makes her a trusted resource for families facing critical care decisions.",
+      "Amy has leveraged her financial expertise, attention to detail, and strategic insight to help individuals navigate complex issues for sound informed decision-making solutions. She is a passionate advocate for seniors. Her ability to connect with people and translate complex financial concepts into clear, actionable steps makes her a trusted resource for families.",
       "Amy is a highly accomplished Certified Public Accountant (CPA) with extensive experience in finance, strategic planning, executive leadership, and long-term care planning. After graduating valedictorian from the University of Colorado – Leeds School of Business, she began her career at Deloitte before advancing into key leadership roles, including Corporate Accounting Manager at US West, Director of Financial Planning and Analysis at Qwest, and Chief Financial Officer at AboutSkin Dermatology.",
       "Her unique blend of financial acumen and personal commitment to elder care empowers individuals to make well-informed choices prioritizing dignity, independence, and long-term well-being."
     ],
@@ -17,7 +17,7 @@ const founders = [
     name: "Elizabeth (Buffy) Chonchol",
     bio: [
       "Elizabeth \"Buffy\" brings both personal experience and professional expertise to families navigating the challenges of long-term care. As the devoted daughter of a parent who has been in an elderly care community for over a decade, she deeply understands the emotional and logistical complexities of finding the right support for an aging loved one.",
-      "Beyond her firsthand experience, Buffy holds a degree in Accounting from George Washington University and an MBA from the University of Denver. Her career includes roles in public accounting at Price Waterhouse, serving as Director of Finance in Business Development for US West, and working as Director of Development at a private investment group.",
+      "Beyond her firsthand experience, Buffy holds a degree in Accounting from George Washington University, a MBA from the University of Denver and is a certified public accountant (inactive). Her career includes roles in public accounting at Price Waterhouse, serving as Director of Finance in Business Development for US West, and working as Director of Development at a private investment group.",
       "A third-generation Denver native, Buffy has a deep knowledge of the city's senior care resources and communities, making her a trusted guide for families seeking the best options for their loved ones."
     ],
     // image: buffyChonchol
