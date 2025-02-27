@@ -43,7 +43,7 @@ export default function Homepage() {
       </section> */}
 
       {/* Why Choose Us Section */}
-      <section className="features-section">
+      {/* <section className="features-section">
         <div className="content-wrapper">
           <h2 className="section-title">Why Choose Resolute Senior Advocates</h2>
           <div className="features-grid">
@@ -65,16 +65,16 @@ export default function Homepage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action Section */}
-      <section className="cta-section">
+      {/* <section className="cta-section">
         <div className="content-wrapper">
           <h2>Ready to Get Started?</h2>
           <p>Contact us today for a consultation about your family's needs.</p>
           <a href="/contact" className="cta-button">Contact Us</a>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
