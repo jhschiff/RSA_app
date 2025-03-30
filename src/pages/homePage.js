@@ -29,7 +29,8 @@ export default function Homepage() {
             <div className="about-text">
               <h2 className="section-title">ABOUT RSA</h2>
               <p>
-                Navigating senior care decisions can be overwhelming, but you don't have to do it alone. As Colorado natives with firsthand experience in elder care, we provide compassionate, financially savvy, and personalized guidance to help families find the best senior living and care solutions. Unlike national companies, we take a hands-on, local approach—personally visiting every recommended community and tailoring options to fit your unique needs.
+                Navigating senior care decisions can be overwhelming, but you don't have to do it alone. As Colorado natives with firsthand experience in elder care, we provide compassionate, financially savvy, and personalized guidance to help families find the best senior living and care solutions. Unlike national companies, we take a hands-on, local approach—personally visiting every recommended community and tailoring options to fit your unique needs. We also offer at-home care solutions, financial tracking assistance, and referrals for essential services like moving, medical devices, and accessibility resources to ensure the highest quality of care.
+
               </p>
             </div>
             <div className="about-image">
