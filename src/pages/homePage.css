@@ -272,12 +272,7 @@
   }
 
   .content-wrapper {
-    padding: 0 1rem;
-  }
-
-  .service-card,
-  .feature-item {
-    margin-bottom: 1rem;
+    padding: 0 0rem;
   }
 
   .about-grid {
@@ -286,10 +281,11 @@
   }
 
   .about-text {
-    padding: 1rem;
+    padding: 0rem;
   }
 
   .about-image {
     height: 300px;
+    padding: 0rem;
   }
 } 
