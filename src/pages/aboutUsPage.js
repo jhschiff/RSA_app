@@ -8,7 +8,7 @@ const founders = [
     name: "Amy Schiff",
     bio: [
       "Amy has leveraged her financial expertise, attention to detail, and strategic insight to help individuals navigate complex issues for sound informed decision-making solutions. She is a passionate advocate for seniors. Her ability to connect with people and translate complex financial concepts into clear, actionable steps makes her a trusted resource for families.",
-      "Amy is a highly accomplished Certified Public Accountant (CPA) with extensive experience in finance, strategic planning, executive leadership, and long-term care planning. After graduating valedictorian from the University of Colorado – Leeds School of Business, she began her career at Deloitte before advancing into key leadership roles, including Corporate Accounting Manager at US West, Director of Financial Planning and Analysis at Qwest, and Chief Financial Officer at AboutSkin Dermatology.",
+      "Amy is a highly accomplished certified public accountant with extensive experience in finance, strategic planning and executive leadership. After graduating valedictorian from the University of Colorado – Leeds School of Business, she began her career at Deloitte before advancing into key leadership roles, including Corporate Accounting Manager at US West, Director of Financial Planning and Analysis at Qwest, and Chief Financial Officer at AboutSkin Dermatology.",
       "Her unique blend of financial acumen and personal commitment to elder care empowers individuals to make well-informed choices prioritizing dignity, independence, and long-term well-being."
     ],
     // image: amySchiff
