@@ -1,82 +1,74 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;     /* Center items horizontally */
     background-color: white;
     color: #333;
-    padding: 0;
-    height: 150px;
-  }
-  
-  .navbar-left {
-    height: 100%;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  
-  .navbar-left .logo {
+    min-height: 150px;
+}
+
+.navbar-left {
+    height: 100px;          /* Fixed height for logo container */
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-left .logo {
     height: 100%;
     display: block;
-  }
-  
-  .navbar-center {
-    padding-right: 2rem;
-  }
-  
-  .navbar-center .nav-links {
+}
+
+.navbar-center {
+    padding: 1rem;  /* Remove bottom padding */
+    width: 100%;           /* Full width for nav links container */
+    background-color: #eaedf0;  /* Added light gray background to match other sections */
+}
+
+.navbar-center .nav-links {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    gap: 4rem;
     margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-center .nav-links li {
-    margin-right: 2rem;
-  }
-  
-  .navbar-center .nav-links a {
+}
+
+.navbar-center .nav-links li {
+    margin: 0;              /* Remove margin, using gap instead */
+}
+
+.navbar-center .nav-links a {
     color: #333;
     text-decoration: none;
     font-size: 1.2rem;
-  }
-  
-  .logo-image {
+}
+
+.logo-image {
     height: 100%;
     width: auto;
     display: block;
-  }
+}
 
 /* Mobile Navigation */
 @media (max-width: 768px) {
-  .navbar {
-    height: 80px;  /* Reduced overall height */
-    padding: 0.5rem;
-  }
+    .navbar {
+        padding: 0.5rem 0 0 0;  /* Remove bottom padding on mobile */
+    }
 
-  .navbar-left {
-    height: 100%;
-    padding: 0.5rem;
-  }
+    .navbar-left {
+        height: 80px;      /* Smaller logo on mobile */
+    }
 
-  .navbar-center {
-    padding-right: 1rem;
-  }
+    .navbar-center {
+        padding: 0.5rem;
+    }
 
-  .navbar-center .nav-links {
-    gap: 1rem;  /* Reduced gap between links */
-  }
+    .navbar-center .nav-links {
+        gap: 1rem;         /* Reduced spacing on mobile */
+    }
 
-  .navbar-center .nav-links li {
-    margin-right: 0.5rem;  /* Reduced margin */
-  }
-
-  .navbar-center .nav-links a {
-    font-size: 0.9rem;  /* Smaller font size */
-  }
-
-  .logo-image {
-    height: 100%;
-    width: auto;
-  }
+    .navbar-center .nav-links a {
+        font-size: 0.9rem;
+    }
 }

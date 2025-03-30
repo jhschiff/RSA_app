@@ -5,13 +5,13 @@ const employees = [{
   name: "Amy Schiff",
   position: "Partner",
   // email: "aschiff@RSAus.com",
-  phone: "303-437-5388"
+  phone: "303.437.5388"
 },
 {
   name: "Elizabeth (Buffy) Chonchol",
   position: "Partner",
   // email: "bchonchol@RSAus.com",
-  phone: "303-513-1740"
+  phone: "303.513.1740"
 }
 ]
 

@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar.js";
 import './homePage.css';
-// import seniorCare from '../images/senior-care.jpeg';
-// import familySupport from '../images/familySupport.jpeg';
+import sunsetGrass from '../images/sunsetGrass.png';
+import aboutImage from '../images/hands.png';
 
 export default function Homepage() {
   return (
@@ -10,18 +10,32 @@ export default function Homepage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section" style={{ backgroundImage: `url(${sunsetGrass})` }}>
         <div className="hero-content">
-          <h1 className="hero-title">Helping Support Aging Loved Ones</h1>
+          {/* <h1 className="hero-title">Helping Support Aging Loved Ones</h1> */}
+          <h1 className="hero-title">HELPING SUPPORT AGING LOVED ONES</h1>
           <div className="hero-subtitle">
-            <p>
-              Navigating senior care decisions can be overwhelming, but you don't have to do it alone. As Colorado natives with firsthand experience in elder care, we provide compassionate, financially savvy, and personalized guidance to help families find the best senior living and care solutions. Unlike national companies, we take a hands-on, local approach—personally visiting every recommended community and tailoring options to fit your unique needs.
-            </p>
             <p>
               Our mission is to provide compassionate, personalized, and financially informed guidance to seniors and their families as they navigate the complexities of aging and senior care.
             </p>
           </div>
-          <a href="/contact" className="cta-button">Get Started Today</a>
+        </div>
+      </section>
+
+      {/* About Us Section */}
+      <section className="about-section">
+        <div className="content-wrapper">
+          <div className="about-grid">
+            <div className="about-text">
+              <h2 className="section-title">ABOUT RSA</h2>
+              <p>
+                Navigating senior care decisions can be overwhelming, but you don't have to do it alone. As Colorado natives with firsthand experience in elder care, we provide compassionate, financially savvy, and personalized guidance to help families find the best senior living and care solutions. Unlike national companies, we take a hands-on, local approach—personally visiting every recommended community and tailoring options to fit your unique needs.
+              </p>
+            </div>
+            <div className="about-image">
+              <img src={aboutImage} alt="Senior Care" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -68,13 +82,13 @@ export default function Homepage() {
       </section> */}
 
       {/* Call to Action Section */}
-      {/* <section className="cta-section">
-        <div className="content-wrapper">
-          <h2>Ready to Get Started?</h2>
-          <p>Contact us today for a consultation about your family's needs.</p>
+      <section className="cta-section">
+        {/* <div className="content-wrapper"> */}
+          {/* <h2>Ready to Get Started?</h2> */}
+          {/* <p>Contact us today for a consultation about your family's needs.</p> */}
           <a href="/contact" className="cta-button">Contact Us</a>
-        </div>
-      </section> */}
-    </div>
+        {/* </div> */}
+      </section>
+      </div>
   );
 }
