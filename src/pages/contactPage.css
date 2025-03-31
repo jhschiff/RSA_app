@@ -1,12 +1,45 @@
 .contact-page {
   min-height: 100vh;
+  background-color: rgb(243, 244, 246);  /* Match homepage background color */
+}
+
+/* Hero Section */
+.contact-hero-section {
   background-color: #d1d5db;
+  color: black;
+  padding: 6rem 2rem;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.contact-hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-hero-title {
+  font-size: 2rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+  color: rgb(120, 129, 120);
+  font-family: Arial, sans-serif;
 }
 
 .contact-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 1rem;
+  background-color: white;
 }
 
 .contact-cards-wrapper {
@@ -27,9 +60,10 @@
 
 .contact-name {
   font-size: 1.5rem;
-  font-weight: 700;
-  color: rgb(31, 41, 55);
+  font-weight: 550;
+  color: rgb(120, 129, 120);
   margin-bottom: -0.1rem;
+  font-family: Arial, sans-serif;
 }
 
 .contact-details {
@@ -45,12 +79,15 @@
 }
 
 .contact-text {
-  color: rgb(75, 85, 99);
-  line-height: 1.1;
+  color: black;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-family: Arial, sans-serif;
 }
 
 .contact-label {
-  font-weight: 600;
+  font-weight: 550;
+  font-family: Arial, sans-serif;
 }
 
 .contact-header{

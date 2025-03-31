@@ -1,5 +1,6 @@
 import Navbar from "../Navbar";
 import "./contactPage.css";
+import rose from '../images/roses.jpg';
 
 const employees = [{
   name: "Amy Schiff",
@@ -19,10 +20,12 @@ export default function ContactPage () {
     return (
       <div className="contact-page">
         <Navbar />
-        <div className="contact-container">
-          <div className="contact-header">
-            <h1> Contact Us</h1>
+        <section className="contact-hero-section" style={{ backgroundImage: `url(${rose})` }}>
+          <div className="contact-hero-content">
+            <h1 className="contact-hero-title">CONTACT US</h1>
           </div>
+        </section>
+        <div className="contact-container">
           <div className="contact-cards-wrapper">
             {employees.map((employee, index) => (
               <div key={index} className="contact-card">
