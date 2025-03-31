@@ -1,5 +1,7 @@
+import React from "react";
 import Navbar from "../Navbar";
 import "./aboutUsPage.css";
+import mountain2 from '../images/mountain2.jpg';
 // import amySchiff from "../images/AmySchiff.jpeg";
 // import buffyChonchol from "../images/BuffyChonchol.jpeg";
 
@@ -29,20 +31,22 @@ export default function AboutUsPage() {
     <div className="about-page">
       <Navbar />
       
-      {/* Company Overview Section */}
-      <section className="company-section">
-        <div className="content-container">
-          <h1 className="section-title">About The Company</h1>
-          <p className="company-description">
-            Founded in 2025, Resolute Senior Advocates provides guidance and support to help families navigate the complexities of elderly care for their loved ones.
-          </p>
+      {/* Hero Section */}
+      <section className="hero-section" style={{ backgroundImage: `url(${mountain2})` }}>
+        <div className="hero-content">
+          <h1 className="hero-title">ABOUT THE COMPANY</h1>
+          <div className="hero-subtitle">
+            <p>
+              Founded in 2025, Resolute Senior Advocates provides guidance and support to help families navigate the complexities of elderly care for their loved ones.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Founders Section */}
       <section className="founders-section">
         <div className="content-container">
-          <h2 className="section-title">Meet Our Founders</h2>
+          <h2 className="section-title">MEET OUR FOUNDERS</h2>
           <div className="founders-grid">
             {founders.map((founder, index) => (
               <div key={index} className="founder-card">

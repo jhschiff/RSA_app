@@ -3,39 +3,68 @@
   background-color: rgb(243, 244, 246);
 }
 
-.content-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-.section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: rgb(31, 41, 55);
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-/* Company Section Styles */
-.company-section {
-  /* padding: 4rem 0; */
+/* Hero Section */
+.hero-section {
   background-color: #d1d5db;
+  color: black;
+  padding: 6rem 2rem;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.company-description {
-  font-size: 1.125rem;
-  line-height: 1.75;
-  color: rgb(75, 85, 99);
-  max-width: 800px;
+.hero-content {
+  max-width: 600px;
   margin: 0 auto;
-  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+  color: rgb(120, 129, 120);
+  font-family: Arial, sans-serif;
+}
+
+.hero-subtitle {
+  margin-bottom: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.hero-subtitle p {
+  font-size: 1.1rem;
+  opacity: 1;
+  margin-bottom: 0.75rem;
+  color: black;
 }
 
 /* Founders Section Styles */
 .founders-section {
   padding: 1rem 0;
-  background-color: #d1d5db;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content-container .section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 550;
+  color: rgb(120, 129, 120);
+  font-family: Arial, sans-serif;
+  margin-bottom: 1rem;
 }
 
 .founders-grid {
@@ -70,16 +99,18 @@
 
 .founder-name {
   font-size: 1.5rem;
-  font-weight: 600;
-  color: rgb(31, 41, 55);
+  font-weight: 550;
+  color: rgb(120, 129, 120);
   margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
 }
 
 .founder-bio {
-  color: rgb(75, 85, 99);
+  color: black;
   line-height: 1.6;
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-family: Arial, sans-serif;
 }
 
 .founder-bio:last-child {
@@ -88,20 +119,25 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .founders-grid {
+  .about-grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
-  .section-title {
-    font-size: 2rem;
+  .about-text {
+    padding: 0rem;
   }
 
-  .company-description {
-    font-size: 1rem;
-    padding: 0 1rem;
+  .about-image {
+    height: 300px;
+    padding: 0rem;
   }
 
-  .founder-bio {
+  .founder-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .founder-item p {
     font-size: 1rem;
   }
 }
