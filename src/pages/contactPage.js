@@ -1,6 +1,6 @@
 import Navbar from "../Navbar";
 import "./contactPage.css";
-import rose from '../images/roses.jpg';
+import river from '../images/river.jpg';
 
 const employees = [{
   name: "Amy Schiff",
@@ -20,7 +20,7 @@ export default function ContactPage () {
     return (
       <div className="contact-page">
         <Navbar />
-        <section className="contact-hero-section" style={{ backgroundImage: `url(${rose})` }}>
+        <section className="contact-hero-section" style={{ backgroundImage: `url(${river})` }}>
           <div className="contact-hero-content">
             <h1 className="contact-hero-title">CONTACT US</h1>
           </div>

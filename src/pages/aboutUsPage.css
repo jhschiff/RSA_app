@@ -140,4 +140,35 @@
   .founder-item p {
     font-size: 1rem;
   }
+  /* Founders Section */
+  .founders-grid {
+    grid-template-columns: 1fr;  /* Stack founders vertically on mobile */
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .content-container {
+    padding: 0 1rem;  /* Reduce side padding on mobile */
+  }
+
+  .content-container .section-title {
+    font-size: 1.75rem;
+  }
+
+  .founder-image-container {
+    height: 250px;  /* Slightly smaller images on mobile */
+  }
+
+  .founder-content {
+    padding: 1.25rem;
+  }
+
+  .founder-name {
+    font-size: 1.25rem;
+  }
+
+  .founder-bio {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }

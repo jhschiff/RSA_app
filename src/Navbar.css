@@ -5,6 +5,7 @@
     background-color: white;
     color: #333;
     min-height: 150px;
+    margin: 0;
 }
 
 .navbar-left {
@@ -53,7 +54,8 @@
 /* Mobile Navigation */
 @media (max-width: 768px) {
     .navbar {
-        padding: 0.5rem 0 0 0;  /* Remove bottom padding on mobile */
+        padding: 0;        /* Remove all padding */
+        min-height: auto;  /* Remove fixed height on mobile */
     }
 
     .navbar-left {
