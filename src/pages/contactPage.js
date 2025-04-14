@@ -5,13 +5,13 @@ import river from '../images/river.jpg';
 const employees = [{
   name: "Amy Schiff",
   position: "Partner",
-  // email: "aschiff@RSAus.com",
+  email: "aschiff@rsaus.com",
   phone: "303.437.5388"
 },
 {
   name: "Elizabeth (Buffy) Chonchol",
   position: "Partner",
-  // email: "bchonchol@RSAus.com",
+  email: "bchonchol@rsaus.com",
   phone: "303.513.1740"
 }
 ]
