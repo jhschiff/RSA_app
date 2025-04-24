@@ -40,7 +40,10 @@ export default function ContactPage () {
                 {/* Contact Info Group */}
                 <div className="info-group">
                   <p className="contact-text">
-                    <span className="contact-label">Email:</span> {employee.email}
+                    <span className="contact-label">Email:</span>
+                    <a href={`mailto:${employee.email}`} className="contact-link">
+                      {employee.email}
+                    </a>
                   </p>
                   <p className="contact-text">
                     <span className="contact-label">Phone:</span> {employee.phone}
