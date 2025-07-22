@@ -44,7 +44,7 @@ export default function Homepage() {
         <div className="content-wrapper">
           <h2 className="section-title">COMPLIMENTARY CONSULTATION</h2>
           <p className="consultation-text">
-            Let's talk. Schedule a phone call, virtual meeting, or in-person visit (your home, office, or shop) to discuss your needs and how we can help.
+            Let's talk. Schedule a phone call or in person meeting (your home, office, coffee shop, etc.) to discuss your needs and how we can help.
           </p>
         </div>
       </section>
