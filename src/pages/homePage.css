@@ -239,6 +239,28 @@
   height: 100%;
   object-fit: cover;
 }
+/* Complimentary Consultation Section */
+.consultation-section {
+  background-color: white;      /* keep same as about section */
+  padding: 4rem 2rem;
+  text-align: center;           /* center title + text */
+}
+
+.consultation-section .section-title {
+  font-size: 2rem;
+  font-weight: 550;
+  color: rgb(120, 129, 120);
+  font-family: Arial, sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.consultation-text {
+  max-width: 700px;             /* limit width for readability */
+  margin: 0 auto;               /* center horizontally */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
