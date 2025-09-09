@@ -45,7 +45,7 @@ npm start
 yarn start
 ```
 
-The application will be available at `http://localhost:3000`
+The application will be available at `https://localhost:3000`
 
 ## Responsive Design
 The application is fully responsive and optimized for:
