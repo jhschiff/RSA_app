@@ -4,8 +4,14 @@ import ContactPage from './pages/contactPage';
 import Homepage from './pages/homePage';
 import AboutPage from './pages/aboutUsPage';
 import ServicesPage from './pages/servicesPage';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost') {
+      window.location.replace(`https:${window.location.href.substring(window.location.protocol.length)}`);
+    }
+  }, []);
   return (
     <div className="App">
           <Routes>

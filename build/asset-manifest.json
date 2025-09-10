@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8213dfb1.css",
-    "main.js": "/static/js/main.c47ec52a.js",
+    "main.js": "/static/js/main.da2aff2b.js",
     "static/media/sunsetGrass.png": "/static/media/sunsetGrass.ce8f8edd4a999bb889b4.png",
     "static/media/river.jpg": "/static/media/river.49bd4af20b2952e33e41.jpg",
     "static/media/mountain1.jpg": "/static/media/mountain1.f2cbc66a9596aea9f20c.jpg",
@@ -13,6 +13,6 @@
   },
   "entrypoints": [
     "static/css/main.8213dfb1.css",
-    "static/js/main.c47ec52a.js"
+    "static/js/main.da2aff2b.js"
   ]
 }

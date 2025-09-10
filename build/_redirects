@@ -1,5 +1,6 @@
-# Force HTTPS redirect
+# Force HTTPS redirects
 http://rsaus.com/* https://rsaus.com/:splat 301!
+http://www.rsaus.com/* https://www.rsaus.com/:splat 301!
 
 # SPA fallback
 /* /index.html 200 
