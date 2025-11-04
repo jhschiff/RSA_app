@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../Navbar";
 import "./aboutUsPage.css";
 import mountain2 from '../images/mountain2.jpg';
-// import amySchiff from "../images/AmySchiff.jpeg";
-// import buffyChonchol from "../images/BuffyChonchol.jpeg";
+import amySchiff from "../images/Amy.Schiff.jpg";
+import buffyChonchol from "../images/Buffy.Chonchol.jpg";
 
 const founders = [
   {
@@ -13,7 +13,7 @@ const founders = [
       "Amy is a highly accomplished certified public accountant with extensive experience in finance, strategic planning and executive leadership. After graduating valedictorian from the University of Colorado – Leeds School of Business, she began her career at Deloitte before advancing into key leadership roles, including Corporate Accounting Manager at US West, Director of Financial Planning and Analysis at Qwest, and Chief Financial Officer at AboutSkin Dermatology.",
       "Her unique blend of financial acumen and personal commitment to elder care empowers individuals to make well-informed choices prioritizing dignity, independence, and long-term well-being."
     ],
-    // image: amySchiff
+    image: amySchiff
   },
   {
     name: "Elizabeth (Buffy) Chonchol",
@@ -22,7 +22,7 @@ const founders = [
       "Beyond her firsthand experience, Buffy holds a degree in Accounting from George Washington University, a MBA from the University of Denver and is a certified public accountant (inactive). Her career includes roles in public accounting at Price Waterhouse, serving as Director of Finance in Business Development for US West, and working as Director of Development at a private investment group.",
       "A third-generation Denver native, Buffy has a deep knowledge of the city's senior care resources and communities, making her a trusted guide for families seeking the best options for their loved ones."
     ],
-    // image: buffyChonchol
+    image: buffyChonchol
   }
 ];
 
@@ -51,11 +51,11 @@ export default function AboutUsPage() {
             {founders.map((founder, index) => (
               <div key={index} className="founder-card">
                 <div className="founder-image-container">
-                  {/* <img 
+                  <img 
                     src={founder.image} 
                     alt={founder.name}
                     className="founder-image"
-                  /> */}
+                  />
                 </div>
                 <div className="founder-content">
                   <h3 className="founder-name">{founder.name}</h3>

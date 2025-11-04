@@ -83,14 +83,17 @@
 
 .founder-image-container {
   width: 100%;
-  height: 300px;
+  max-width: 300px;
+  aspect-ratio: 4 / 5;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .founder-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
 }
 
 .founder-content {
@@ -156,7 +159,7 @@
   }
 
   .founder-image-container {
-    height: 250px;  /* Slightly smaller images on mobile */
+    aspect-ratio: 4 / 5;  /* Maintain portrait ratio on mobile */
   }
 
   .founder-content {
