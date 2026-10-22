@@ -46,7 +46,10 @@ export default function ContactPage () {
                     </a>
                   </p>
                   <p className="contact-text">
-                    <span className="contact-label">Phone:</span> {employee.phone}
+                    <span className="contact-label">Phone:</span>{' '}
+                    <a href={`tel:${employee.phone.replaceAll(".", "")}`} className="contact-link">
+                      {employee.phone}
+                    </a>
                   </p>
                 </div>
               </div>

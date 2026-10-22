@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="App">
           <Routes>
-            <Route path="/homepage" element={<Homepage />} />
+            <Route path="/" element={<Homepage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             
              {/* default redirect to home page */}
-            <Route path="*" element={<Navigate to="/homepage" />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
          </Routes>
     </div>
   );

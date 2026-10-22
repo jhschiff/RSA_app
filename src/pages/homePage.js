@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar.js";
+import { Link } from 'react-router-dom';
 import './homePage.css';
-import sunsetGrass from '../images/sunsetGrass.png';
+import sunsetGrass from '../images/sunsetGrass.jpg';
 import aboutImage from '../images/hands.png';
 
 export default function Homepage() {
@@ -51,7 +52,7 @@ export default function Homepage() {
 
       {/* Call to Action Section */}
       <section className="cta-section">
-          <a href="/contact" className="cta-button">Contact Us</a>
+          <Link to="/contact" className="cta-button">Contact Us</Link>
       </section>
       </div>
   );
