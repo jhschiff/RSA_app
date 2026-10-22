@@ -1,0 +1,7 @@
+# Force HTTPS and a single canonical host
+http://rsaus.com/* https://rsaus.com/:splat 301!
+http://www.rsaus.com/* https://rsaus.com/:splat 301!
+https://www.rsaus.com/* https://rsaus.com/:splat 301!
+
+# Old React URL
+/homepage / 301
